@@ -91,6 +91,6 @@ model = XGBRegressor(
 model.fit(X_train, y_train)
 
 # Save the model
-joblib.dump(model, 'pages/xgboost_property_valuation_model.pkl')
+joblib.dump(model, 'pages/xgboost_property_valuation_models.pkl')
 
 print("Model trained and saved successfully!")

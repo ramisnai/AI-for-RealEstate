@@ -33,7 +33,7 @@ import os
 
 
 # Load the trained model
-model = joblib.load('xgboost_property_valuation_model.pkl')
+model = joblib.load('pages/xgboost_property_valuation_models.pkl')
 
 def property_valuation_page():
     st.header("Property Valuation")
