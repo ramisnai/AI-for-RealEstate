@@ -1,0 +1,45 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Styling */
+h1, h2, h3 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Sidebar Styling */
+.sidebar .sidebar-content {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Button Styling */
+div.stButton > button:first-child {
+    background-color: #18bc9c;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+div.stButton > button:hover {
+    background-color: #15a589;
+}
+
+/* Input Fields */
+.stTextInput > div > div > input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Map Styling */
+.leaflet-container {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
