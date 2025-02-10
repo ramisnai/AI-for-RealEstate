@@ -19,14 +19,14 @@ if 'theme' not in st.session_state:
 st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "Property Valuation", "Market Analysis", "Geospatial Analysis"])
 
-# Theme Toggle
-def toggle_theme():
-    if st.session_state.theme == "light":
-        st.session_state.theme = "dark"
-    else:
-        st.session_state.theme = "light"
+# # Theme Toggle
+# def toggle_theme():
+#     if st.session_state.theme == "light":
+#         st.session_state.theme = "dark"
+#     else:
+#         st.session_state.theme = "light"
 
-st.sidebar.button("Toggle Theme", on_click=toggle_theme)
+# st.sidebar.button("Toggle Theme", on_click=toggle_theme)
 
 # Apply theme
 if st.session_state.theme == "dark":
